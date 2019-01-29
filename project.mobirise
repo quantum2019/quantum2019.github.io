@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Quantum2019",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -27,10 +27,12 @@
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#000000"
+      ]
     },
     "versionFirst": "4.6.6",
-    "uniqCompNum": 19,
+    "uniqCompNum": 22,
     "versionPublish": "4.6.6",
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
@@ -671,18 +673,18 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            ".mbr-text": {
+            ".mbr-text, blockquote": {
               "color": "#767676"
             }
           },
-          "_name": "content3",
-          "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content3\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12 col-md-8\">\n                <div class=\"col-12 col-md-6 pr-lg-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline></div>\n                <div class=\"col-12 col-md-6 pl-lg-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qYW6U0XY0z",
-          "_anchor": "content3-g",
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p>Andres Abella - U. de la Republica</p><p>Marcelo Aguiar - Cornell University</p><p>Dirceu Bagio - Universidade Federal de Santa Maria</p><p>Karina Batistelli - U. Nacional de Cordoba</p><p>Leandro Bentancur - U. de la Republica</p><p>Noelia Bortolussi - U. Nacional de Cordoba</p><p>Michel Brion - U. Grenoble</p><p>Juan Cisfuentes - U. Distrial</p><p>Pedro Luis del Angel - CIMAT Guanajuato</p><p>Cesar Galindo - U. de los Andes</p><p>Gaston Andres Garcia - U. Nacional de la Plata</p><p>Agustin Garcia - U. Nacional de Cordoba</p><p>Ana Gonzalez - U. de la Republica</p><p>Gerardo Gonzalez Sprinberg - U. de la Republica and U. Grenoble</p><p>Mariana Haim - U. de la Republica</p><p>Adriana Juzga Leon - U. Estadual de Campinas</p><p>Ignacio Lopez Franco - U. de la Republica</p><p>Ezequiel Maderna - U. de la Republica</p><p>Andy Magid - U. of Oklahoma</p><p>Santiago Montouliu - U. de la Republica</p><p>Sonia Natale - U. Nacional del Cordoba</p><p>Antonio Paques - U. Federal do Rio Grande do Sul</p><p>Hector Martin Peña - U. Nacional de Cordoba</p><p>Javier Peraza - U. de la Republica</p><p>Marco Antonio Perez - U. de la Republica</p><p>Maria Ofelia Ronco - U. de Talca</p><p>Alvaro Rittatore - U. de la Republica</p><p>Luis Rosa Ferrari - U. de la Republica</p><p>Yannic Vargas - Inst. Venezolano de Investigaciones Científicas</p><p><br></p><p><br></p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rgxtwytCMm",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content1-l"
         }
       ]
     }

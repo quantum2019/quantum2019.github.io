@@ -1841,11 +1841,12 @@ body {
 .cid-qYW5zEUw3x H2 {
   color: #ffffff;
 }
-.cid-qYW6U0XY0z {
+.cid-rgxtwytCMm {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #efefef;
 }
-.cid-qYW6U0XY0z .mbr-text {
+.cid-rgxtwytCMm .mbr-text,
+.cid-rgxtwytCMm blockquote {
   color: #767676;
 }
